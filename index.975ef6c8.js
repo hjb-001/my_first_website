@@ -28557,7 +28557,7 @@ const Header = ()=>{
                 children: "Home"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28565,7 +28565,7 @@ const Header = ()=>{
                 children: "About"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28573,21 +28573,30 @@ const Header = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#education",
+                children: "Education"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 28,
+                columnNumber: 7
+            }, undefined),
+            " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#footer",
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, undefined);
 };
@@ -28917,6 +28926,18 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Education = ()=>{
+    const educationData = [
+        {
+            university: "大学名称",
+            degree: "学位名称",
+            date: "日期"
+        },
+        {
+            university: "大学名称",
+            degree: "学位名称",
+            date: "日期"
+        }, 
+    ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "education",
         children: [
@@ -28924,73 +28945,50 @@ const Education = ()=>{
                 children: "教育背景"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 6,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "education-item",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "大学名称"
-                    }, void 0, false, {
+                className: "education-grid",
+                children: educationData.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "education-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: item.university
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 23,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: item.degree
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 24,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: item.date
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 25,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, index, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 8,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "学位名称"
-                    }, void 0, false, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 9,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "日期"
-                    }, void 0, false, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 10,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                        lineNumber: 22,
+                        columnNumber: 21
+                    }, undefined))
+            }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 7,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "education-item",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "大学名称"
-                    }, void 0, false, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 13,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "学位名称"
-                    }, void 0, false, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 14,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "日期"
-                    }, void 0, false, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 15,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Education.jsx",
-                lineNumber: 12,
+                lineNumber: 20,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 5,
+        lineNumber: 18,
         columnNumber: 9
     }, undefined);
 };
