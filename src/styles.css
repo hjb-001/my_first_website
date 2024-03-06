@@ -12,6 +12,32 @@ html {
   scroll-behavior: smooth;
 }
 
+/* add a slide In Left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* animate the scroll down arrow in your Home component to bounce up and down on my page. */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
 body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
