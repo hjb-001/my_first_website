@@ -6,6 +6,7 @@
  */
 import React from "react";
 
+
 const Header = () => {
   return (
     <div
@@ -24,6 +25,7 @@ const Header = () => {
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="#education">Education</a> {/* 添加了Education链接 */}
       <a href="#footer">Contact</a>
     </div>
   );
